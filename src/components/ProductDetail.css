@@ -1,0 +1,79 @@
+/* Основной стиль для карточки товара */
+.product-detail {
+  max-width: 900px; /* Увеличиваем максимальную ширину карточки */
+  margin: 20px auto;
+  padding: 25px; /* Увеличиваем внутренние отступы для лучшего расположения контента */
+  border: 1px solid #ddd;
+  border-radius: 12px; /* Радиус уголков как на сайте */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень как на сайте */
+  background-color: #fff;
+  font-family: 'Arial', sans-serif; /* Шрифт, как на сайте */
+  color: #000; /* Черный цвет шрифта */
+}
+
+/* Убираем подчеркивания для всех элементов внутри карточки */
+.product-detail a {
+  text-decoration: none; /* Убираем подчеркивание для всех ссылок */
+}
+
+/* Заголовок товара */
+.product-detail h2 {
+  font-size: 2rem; /* Размер шрифта, чтобы соответствовать общему дизайну */
+  margin: 10px 0;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Описание товара */
+.product-detail p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+/* Цена товара */
+.price {
+  font-size: 1.6rem; /* Увеличиваем размер шрифта для лучшего восприятия */
+  font-weight: bold;
+  color: #e74c3c; /* Цвет цены */
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Изображение товара */
+.product-detail img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px; /* Отступ снизу для картинки */
+}
+
+/* Кнопка добавления в корзину */
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px; /* Увеличиваем отступ сверху для лучшего расположения кнопки */
+}
+
+.add-to-cart button {
+  background-color: #111; /* Черный фон для кнопки */
+  color: #fff;
+  border: none;
+  border-radius: 50px; /* Скругленные углы кнопки */
+  padding: 12px 25px; /* Увеличиваем размер кнопки */
+  font-size: 1.1rem; /* Увеличиваем размер шрифта в кнопке */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.add-to-cart button:hover {
+  background-color: #333; /* Темный серый фон при наведении */
+  transform: translateY(-5px); /* Эффект поднимания кнопки */
+}
+
+.add-to-cart button:active {
+  transform: translateY(0); /* Возврат кнопки в исходное положение */
+}

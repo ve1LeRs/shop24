@@ -1,0 +1,44 @@
+.notification {
+  position: fixed;
+  top: 20px; /* Отступ от верхней грани */
+  right: 0px; /* Отступ от правой грани */
+  background-color: #4caf50; /* Зеленый фон */
+  color: white; /* Белый текст */
+  padding: 10px 15px; /* Внутренний отступ */
+  border-radius: 5px; /* Закругленные углы */
+  animation: slideIn 0.5s forwards; /* Анимация появления */
+  z-index: 1000; /* Чтобы уведомление отображалось поверх других элементов */
+  max-width: 400px; /* Ограничиваем максимальную ширину */
+}
+
+.close-button {
+  background: none; /* Убираем фон */
+  border: none; /* Убираем рамку */
+  color: white; /* Цвет текста кнопки */
+  cursor: pointer; /* Указываем курсор в виде руки */
+  margin-left: 10px; /* Отступ между текстом и кнопкой */
+}
+
+.fade-out {
+  animation: fadeOut 0.5s forwards; /* Анимация исчезновения */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px); /* Начальное положение выше */
+    opacity: 0; /* Полная прозрачность */
+  }
+  to {
+    transform: translateY(0); /* Конечное положение */
+    opacity: 1; /* Полная непрозрачность */
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; /* Полная непрозрачность */
+  }
+  to {
+    opacity: 0; /* Полная прозрачность в конце */
+  }
+}

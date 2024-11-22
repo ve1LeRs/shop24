@@ -1,0 +1,33 @@
+.order-tracking {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.order-tracking h2 {
+  text-align: center;
+  color: #333;
+}
+
+.order-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-list li {
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.order-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-list ul li {
+  margin: 5px 0;
+}

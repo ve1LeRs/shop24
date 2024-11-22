@@ -1,0 +1,55 @@
+.wishlist {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.wishlist-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.wishlist-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px; /* Закругленные углы */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.wishlist-item-image {
+  width: 60px; /* Уменьшенный размер изображения */
+  height: 60px; /* Уменьшенный размер изображения */
+  margin-right: 15px; /* Отступ между изображением и текстом */
+  object-fit: cover; /* Чтобы изображение не растягивалось */
+  border-radius: 5px; /* Закругленные углы для изображения */
+}
+
+.wishlist-item-details {
+  flex-grow: 1;
+}
+
+.wishlist-item-name {
+  margin: 0;
+  font-size: 16px; /* Уменьшенный размер текста */
+}
+
+.wishlist-item-price {
+  margin: 5px 0;
+  font-size: 14px; /* Уменьшенный размер текста */
+}
+
+.wishlist-item button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px; /* Уменьшенный размер текста для кнопки */
+}
+
+.wishlist-item button:hover {
+  background-color: #c0392b;
+}

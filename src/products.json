@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Sneakers",
+    "description": "Stylish sneakers for everyday wear.",
+    "price": 3000,
+    "image": "/images/sneakers.jpg"
+  },
+  {
+    "id": 2,
+    "name": "T-shirt",
+    "description": "Comfortable cotton T-shirt.",
+    "price": 1000,
+    "image": "/images/tshirt.jpg"
+  }
+]

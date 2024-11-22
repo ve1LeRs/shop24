@@ -1,0 +1,32 @@
+.recommended-products {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+}
+
+.recommended-products h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recommended-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommended-item {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.recommended-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recommended-item p {
+  margin: 10px 0;
+}
